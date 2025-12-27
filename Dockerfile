@@ -1,5 +1,5 @@
 FROM python:3
-RUN pip install "devpi-server>=2.5,<2.6dev" "devpi-client>=2.3,<=2.4dev"
+RUN pip install "devpi-server==6.17" "devpi-client==7.2.0"
 VOLUME /mnt
 EXPOSE 3141
 ADD run.sh /
